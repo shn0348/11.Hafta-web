@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">   
+    <title>İletişim</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        fieldset{
+            width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            font-family:cursive ;
+            height: 300px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="kapsayici">
+        <div id="banner"></div>
+        <div id="ust-menu">
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="urunler.html">Ürünler</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </div>
+        <div id="sol-menu">
+            <ul>
+                <li><a href="index.html">Google</a></li>
+                <li><a href="urunler.html">Meb</a></li>
+                <li><a href="hakkimizda.html">E-Devlet</a></li>
+                <li><a href="iletisim.html">E-Okul</a></li>
+            </ul>
+        </div>
+        <div id="icerik">
+            <form action="" method="post">
+                <fieldset>
+                <legend>İletişim Formu</legend>
+                <table>
+                    <tr>
+                        <td>Adı Soyadı:</td>
+                        <td><input type="text" name="1"></td>
+                    </tr>                  
+                    <tr>
+                        <td>Kullanıcı Adı:</td>
+                        <td><input type="text" name="3"></td>		
+                    </tr>
+                    <tr>
+                        <td>Şifre:</td>
+                        <td><input type="password" name="4"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>E-mail</td>
+                        <td><input type="text" name="6"></td>
+                    </tr>
+                    <tr>
+                        <td>Cinsiyet:</td>
+                        <td>
+                           <input type="radio" name="cinsiyet" id="" checked>Erkek
+                           <input type="radio" name="cinsiyet" id="">Bayan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Doğum tarihi:</td>
+                        <td>
+                            <select>
+                                <option name="yil">---</option>
+                                <option name="yil">2010</option>
+                                <option name="yil">2009</option>
+                                <option name="yil">2008</option>
+                                <option name="yil">2007</option>
+                                <option name="yil">2006</option>
+                                <option name="yil">2005</option>
+                              
+                            </select>
+                            <select>
+                                <option name="ay">---</option>
+                                <option name="ay">OCAK</option>
+                                <option name="ay">ŞUBAT</option>
+                                <option name="ay">MART</option>
+                                <option name="ay">NİSAN</option>
+                                <option name="ay">MAYIS</option>
+                                <option name="ay">HAZİRAN</option>
+                                <option name="ay">TEMMUZ</option>
+                                <option name="ay">AĞUSTOS</option>
+                                <option name="ay">EYLÜL</option>
+                                <option name="ay">EKİM</option>
+                                <option name="ay">KASIM</option>
+                                <option name="ay">ARALIK</option>
+                            </select>
+                            <select>
+                                <option name="gun">---</option>
+                                <option name="gun">1</option>
+                                <option name="gun">2</option>
+                                <option name="gun">3</option>
+                                <option name="gun">4</option>
+                                <option name="gun">5</option>
+                                <option name="gun">6</option>
+                                <option name="gun">7</option>
+                                <option name="gun">8</option>
+                                <option name="gun">9</option>
+                                <option name="gun">10</option>
+                                <option name="gun">11</option>
+                                <option name="gun">12</option>
+                                <option name="gun">13</option>
+                                <option name="gun">14</option>
+                                <option name="gun">15</option>
+                                <option name="gun">16</option>
+                                <option name="gun">17</option>
+                                <option name="gun">18</option>
+                                <option name="gun">19</option>
+                                <option name="gun">20</option>
+                                <option name="gun">21</option>
+                                <option name="gun">22</option>
+                                <option name="gun">23</option>
+                                <option name="gun">24</option>
+                                <option name="gun">25</option>
+                                <option name="gun">26</option>
+                                <option name="gun">27</option>
+                                <option name="gun">28</option>
+                                <option name="gun">29</option>
+                                <option name="gun">30</option>
+                                <option name="gun">31</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ülke: </td>
+                        <td>
+                            <select>		
+                                <option name="ulke">Seçiniz</option>
+                                <option name="ulke">Türkiye</option>
+                                <option name="ulke">A.B.D</option>
+                                <option name="ulke">İngiltere</option>
+                                <option name="ulke">Fransa</option>                               
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="KaydeT">
+                            <input type="reset" value="Sil ! ">
+                        </td>
+                    </tr>
+                </table>                
+                </fieldset>          
+                </form>
+        </div>
+        <div id="sag">
+            <img src="resimler/bilgisayar1.jpg" class="sag-resim">
+            <img src="resimler/bilgisayar2.png" class="sag-resim">
+            <img src="resimler/bilgisayar3.jpg" class="sag-resim">
+            <p id="sag-p">Bilgisayar Çeşitleri</p>
+        </div>
+        <div id="alt">
+            <p id="alt-p">Web Tasarımı ve Programlama Dersi tüm hakları  &copy; saklıdır. </p>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,133 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-image:url("resimler/bulut.jpg");
+	font-family:verdana;
+}
+#kapsayici{
+    margin-left:auto; 
+    margin-right:auto; 
+    width:920px;
+    border-radius:10px;
+	border:1px solid #336699;
+	height: auto;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+#banner, #ust-menu,#sol-menu, #icerik, #alt,#sag {
+	margin:5px;
+	border-radius:10px;
+	border:1px solid #336699;	
+}
+
+#banner {
+	background:url("resimler/banner.jpg");
+	height:200px;
+}
+
+#ust-menu{
+	height:40px;
+	width: 907px;
+}
+
+#sol-menu {
+	float:left;
+	width:200px;
+	min-height:400px;
+}
+
+#icerik{
+	float:left;
+	width:500px;
+	min-height:400px;
+	margin-left: 0px;
+}
+
+#sag {
+	float:left;
+	width:197px;
+	min-height:400px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#alt{
+	width:907px;
+	height: 50px;
+	clear: both;
+}
+#ust-menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;	
+}
+
+#ust-menu ul li{
+	float: left;		
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-top: 4px;
+	height: 30px;	
+}
+#ust-menu ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 5px;
+	color:red;
+}
+#ust-menu ul li a:hover{
+	background-color: #336699;
+	color:white;
+	border-radius:5px;
+}
+
+#sol-menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 190px;
+}
+#sol-menu ul li{
+	border:1px solid #336699;
+	border-radius:10px;
+	margin-top: 5px;	
+	margin-left: 5px;	
+}
+#sol-menu ul li a{
+	display: block;
+	text-decoration: none;
+	color:green;
+	height: 25px;	
+	padding-left: 25px;
+	padding-top: 2px;
+}
+#sol-menu ul li a:hover{
+	background-color: #336699;
+	color:white;	
+	border-radius:9px;	
+}
+.sag-resim{
+	margin-left:4px;
+	margin-top:4px;
+	border-radius: 5px;
+}
+ #sag-p{
+	text-align: center;
+	margin-top: 15px;
+	font-family:monospace;
+	font-weight: bold;
+	color: #336699;
+	font-size: 15px;
+	font-style: italic;
+}
+
+#alt-p{
+	text-align: center;
+	line-height: 50px;	
+	color: #336699;
+	text-decoration: underline;
+}

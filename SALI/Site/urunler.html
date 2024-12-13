@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">   
+    <title>Ürünler</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #icerik table{
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:50px;
+            width: 400px;
+            border:1px solid black;
+        }
+        #icerik table th, #icerik table td{           
+            padding: 8px;
+            border:1px solid black;
+        }
+        #icerik table th{
+            background-color: #04AA6D;
+            
+        }
+        .cift{
+            background-color: #BEB9B9;
+        }
+    </style>
+</head>
+<body>
+    <div id="kapsayici">
+        <div id="banner"></div>
+        <div id="ust-menu">
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="urunler.html">Ürünler</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </div>
+        <div id="sol-menu">
+            <ul>
+                <li><a href="index.html">Google</a></li>
+                <li><a href="urunler.html">Meb</a></li>
+                <li><a href="hakkimizda.html">E-Devlet</a></li>
+                <li><a href="iletisim.html">E-Okul</a></li>
+            </ul>
+        </div>
+        <div id="icerik">
+            <table>
+                <caption align="bottom">Bilgisayar Parçaları</caption>
+                <tr>                
+                    <th>Sıra</th>
+                    <th>Ürün Adı</th>
+                    <th>Fiyat</th>
+                    <th>Adet</th>
+                </tr>                
+                <tr> 
+                    <td>1</td>      
+                    <td>İşlemci</td> 
+                    <td>5000</td> 
+                    <td>50</td> 
+                </tr>  
+                <tr class="cift"> 
+                    <td>2</td>      
+                    <td>Anakart</td> 
+                    <td>6000</td> 
+                    <td>100</td> 
+                </tr> 
+                <tr> 
+                    <td>3</td>      
+                    <td>Ekran Kartı</td> 
+                    <td>7000</td> 
+                    <td>150</td> 
+                </tr> 
+                <tr class="cift"> 
+                    <td>4</td>      
+                    <td>Ram</td> 
+                    <td>2000</td> 
+                    <td>2000</td> 
+                </tr>    
+                
+            </table>
+        </div>
+        <div id="sag">
+            <img src="resimler/bilgisayar1.jpg" class="sag-resim">
+            <img src="resimler/bilgisayar2.png" class="sag-resim">
+            <img src="resimler/bilgisayar3.jpg" class="sag-resim">
+            <p id="sag-p">Bilgisayar Çeşitleri</p>
+        </div>
+        <div id="alt">
+            <p id="alt-p">Web Tasarımı ve Programlama Dersi tüm hakları  &copy; saklıdır. </p>
+        </div>
+    </div>
+    
+</body>
+</html>

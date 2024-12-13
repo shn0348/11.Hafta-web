@@ -1,0 +1,26 @@
+Bilgisayar Tanımı
+           
+                Bilgisayar, aritmetik veya mantıksal işlem dizilerini (berim) 
+                otomatik olarak yürütmek üzere programlanabilen dijital bir 
+                elektronik makinedir.
+           
+          
+                Modern bilgisayarlar, programlar olarak bilinen genel işlem 
+                kümelerini gerçekleştirebilir. Bu programlar, bilgisayarların 
+                çeşitli görevleri gerçekleştirmesini sağlar. 
+           
+                Ayrıca bir bilgisayar sisteminin tam verimle çalışabilmesi için 
+                donanım, işletim sistemi ve çevresel cihazlara sahip olması 
+                gerekmektedir. Bu terim aynı zamanda bir bilgisayar ağı veya bilgisayar 
+                kümesi gibi birbirine bağlı ve birlikte çalışan bir grup bilgisayar 
+                anlamına da gelebilir.
+           
+                Çok amaçlı endüstriyel ve tüketici elektroniği, bilgisayarları 
+                kontrol sistemi olarak kullanır.Örneğin mikrodalga fırınlar ve 
+                uzaktan kumandalar gibi basit özel amaçlı cihazlar, endüstriyel 
+                robotlar ve bilgisayar destekli tasarım gibi fabrika cihazlarının 
+                yanı sıra kişisel bilgisayarlar gibi genel amaçlı cihazlar ve akıllı 
+                telefonlar gibi mobil cihazlar da dahildir. Bilgisayarlar, milyarlarca 
+                başka bilgisayar ve kullanıcıyı birbirine bağlayan İnternet'e de güç 
+                sağlar.
+         
